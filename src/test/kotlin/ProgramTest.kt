@@ -1,5 +1,5 @@
-import org.testng.Assert
-import org.testng.annotations.Test
+import org.junit.Assert
+import org.junit.Test
 
 class ProgramTest {
 
@@ -10,5 +10,4 @@ class ProgramTest {
         val result = instance.add(1, 1)
         Assert.assertEquals(2, result)
     }
-
 }
